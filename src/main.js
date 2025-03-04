@@ -1,5 +1,5 @@
 import './style.css'
-import appLogo from '/icon.svg'
+// import appLogo from '/Icon.svg'
 import { initPWA } from './pwa.js'
 
 import { NameGenerator, NpcBuilder } from './npcGen'
@@ -264,6 +264,37 @@ for(let i in npc.Character.Types){
 }
 const builder = new DomBuilder();
 const divLayout = builder.buildElement(layout);
+
+let characterText=`
+  # ${npcName}\n
+  Age: ${npc.Character.Age}\n
+  Class: ${npc.Character.Class}\n
+  ___ \n
+\`\`\`\nFamily \n
+    Father \n
+        Class: ${npc.Family.Parents[0].Class} \n
+        Status: ${npc.Family.Parents[0].Living} \n
+    Mother \n
+        Class: ${npc.Family.Parents[1].Class} \n
+        Status: ${npc.Family.Parents[1].Living} \n
+`
+
+if(hasSiblings){
+  for(let i in npc.Family.Siblings){
+    const target =npc.Family.Siblings[i]
+    characterText = characterText+`    ${target.Age} ${target.Gender} \n\n        Class: ${target.Class} \n\n        Status: ${target.Living} \n\n`
+  }
+}
+characterText=characterText+`\`\`\`\n___`
+for(let i in npc.Character.Types){
+  characterText = characterText+`\n Type ${npc.Character.Types[i]} \n${npc.Character.TypeDescriptions[i]}\n\n`
+}
+
+let downloadBlob = new Blob([characterText],{type:'text/plain'});
+const blobURL = URL.createObjectURL(downloadBlob);
+let downloadButton = document.getElementById('download');
+downloadButton['href']=blobURL;
+downloadButton.download=`${npcName}.md`
 
 appAnchor.appendChild(divLayout)
 initPWA(appAnchor)

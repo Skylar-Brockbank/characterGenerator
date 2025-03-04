@@ -74,7 +74,7 @@ const enneagram={
   5:"Responds to fear of the world by learning and creating a system of understanding. The world is less scary if you know why things are this way and what is probably coming next",
   6:"Responds to fear of the world by identifying danger and finding saftey. This character will always make the safe choice even if it means giving up individuality to get saftey in numbers",
   7:"Responds to fear of the world by distracting themself. Often engages in vice or fixation to tune out all of the uncomfortable stuff",
-  8:"Responds to discomfort by asserting dominance. They are compelled to be stronger than everyone around them because they cant handle feeling vulnerable",
+  8:"Responds to discomfort by asserting dominance. They are compelled to be stronger than everyone around them because they can't handle feeling vulnerable",
   9:"Responds to discomfort by convincing themself that their situation is fine or that it is what it is."
 }
   
