@@ -9,8 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "host": "vite preview --host",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@vite-pwa/assets-generator": "^0.2.6",

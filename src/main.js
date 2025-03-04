@@ -1,4 +1,6 @@
 import './style.css'
+import appLogo from '/icon.svg'
+import { initPWA } from './pwa.js'
 
 import { NameGenerator, NpcBuilder } from './npcGen'
 import data from "./assets"
@@ -264,3 +266,4 @@ const builder = new DomBuilder();
 const divLayout = builder.buildElement(layout);
 
 appAnchor.appendChild(divLayout)
+initPWA(appAnchor)
