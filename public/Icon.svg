@@ -7,8 +7,35 @@
    viewBox="0 0 7 7.0000153"
    version="1.1"
    id="svg5"
+   sodipodi:docname="Icon.svg"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   inkscape:export-filename="Icon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.830523"
+     inkscape:cx="-1.1385931"
+     inkscape:cy="17.078896"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="173"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8400" />
   <defs
      id="defs2">
     <linearGradient
@@ -23,26 +50,36 @@
      id="layer1"
      transform="translate(-101.40645,-154.82682)">
     <g
-       id="g8400">
+       id="g8400"
+       inkscape:label="g8400">
       <rect
-         style="opacity:0.95;fill:#a6968b;fill-opacity:1;stroke:#3b3b3b;stroke-width:0.225531;stroke-dasharray:none;stroke-opacity:0;stop-color:#000000"
+         style="fill:#a39489;fill-opacity:1;stroke:#5f5f5f;stroke-width:0.0884691;stroke-opacity:0.252632;stop-color:#000000"
+         id="rect352"
+         width="7.5522251"
+         height="7.1038408"
+         x="101.13034"
+         y="154.7749"
+         ry="0.18079264" />
+      <rect
+         style="display:inline;opacity:0.95;fill:#a6968b;fill-opacity:1;stroke:#3b3b3b;stroke-width:0.153012;stroke-dasharray:none;stroke-opacity:0;stop-color:#000000"
          id="rect3236"
-         width="6.7744699"
-         height="6.7744694"
-         x="101.51922"
-         y="154.93959"
-         ry="0.41689044" />
+         width="4.5961318"
+         height="4.5961313"
+         x="102.6084"
+         y="156.02875"
+         ry="0.28283888"
+         inkscape:label="rect3236" />
       <path
          id="path2030-3"
-         style="opacity:0.95;fill:#917c6f;fill-opacity:0;stroke:#000000;stroke-width:0.30451;stroke-dasharray:none;stroke-opacity:0.252632;stop-color:#000000"
-         d="m 104.23895,160.1163 -0.30971,0.76592 m 2.84202,-2.86969 0.82411,-0.1096 m -3.91083,-1.03844 -0.51445,-0.65633 m -0.97156,2.5575 1.49189,-1.88792 2.16214,-1.11794 m 0.78472,4.69466 0.13035,-2.43227 -0.86659,-2.24419 m -3.71201,2.98409 2.04025,1.35058 2.38866,0.33453 m 0.14815,-2.41541 -2.52383,2.07448 -0.53465,-3.22294 z m -0.1332,2.4255 -2.70828,0.42993 -1.72646,-2.13047 0.98183,-2.56039 2.70827,-0.42994 1.72647,2.13048 z" />
+         style="opacity:0.95;fill:#917c6f;fill-opacity:0;stroke:#000000;stroke-width:0.206594;stroke-dasharray:none;stroke-opacity:0.252632;stop-color:#000000"
+         d="m 104.45358,159.54089 -0.21011,0.51964 m 1.92816,-1.94693 0.55912,-0.0743 m -2.6533,-0.70452 -0.34903,-0.44529 m -0.65915,1.73514 1.01216,-1.28086 1.46691,-0.75847 m 0.53239,3.18509 0.0884,-1.65018 -0.58794,-1.52256 m -2.51841,2.02455 1.38421,0.9163 1.62058,0.22696 m 0.10048,-1.63873 -1.71229,1.40743 -0.36273,-2.1866 z m -0.0904,1.64558 -1.83743,0.29168 -1.17131,-1.44541 0.66612,-1.7371 1.83742,-0.29169 1.17133,1.44543 z" />
       <path
-         style="opacity:1;fill:#757574;fill-opacity:0.996078;stroke:#000000;stroke-width:0.19;stroke-dasharray:none;stroke-opacity:0;stop-color:#000000"
-         d="m 103.07266,156.4235 -0.43104,-0.48665 0.51446,-0.38932 0.37542,0.55617 -0.22247,0.13904 v 0 z"
+         style="opacity:1;fill:#757574;fill-opacity:0.996078;stroke:#000000;stroke-width:0.128905;stroke-dasharray:none;stroke-opacity:0;stop-color:#000000"
+         d="m 103.66232,157.03552 -0.29244,-0.33016 0.34904,-0.26414 0.2547,0.37733 -0.15094,0.0943 v 0 z"
          id="path7768" />
       <g
          id="g3130-2"
-         transform="translate(2.8984791,4.0259752)">
+         transform="matrix(0.67844893,0,0,0.67844893,35.699253,53.64158)">
         <path
            style="opacity:1;fill:#737373;fill-opacity:0.952941;stroke:#5f5f5f;stroke-width:0.19;stroke-dasharray:none;stroke-opacity:0.252632;stop-color:#000000"
            d="m 100.37509,152.79175 3.3035,3.99173 0.51125,0.2163 -0.0983,-0.55058 -3.2445,-3.9524 z"

@@ -17,7 +17,7 @@ export default defineConfig({
       name: 'CharacterGenerator',
       short_name: 'CharacterGenerator',
       description: 'CharacterGenerator',
-      theme_color: '#ffffff',
+      theme_color: '#a39487',
     },
 
     workbox: {
