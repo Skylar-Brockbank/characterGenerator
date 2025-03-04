@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [VitePWA({
     registerType: 'prompt',
-    injectRegister: false,
+    injectRegister: 'inline',
 
 
     pwaAssets: {
