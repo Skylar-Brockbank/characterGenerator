@@ -36,7 +36,7 @@ const layout={
   properties:[],
   children:[
     {
-      element:'h1',
+      element:'h2',
       id:'name',
       properties:[
         {
@@ -266,7 +266,6 @@ const builder = new DomBuilder();
 const divLayout = builder.buildElement(layout);
 
 let characterText=`
-  # ${npcName}\n
   Age: ${npc.Character.Age}\n
   Class: ${npc.Character.Class}\n
   ___ \n
